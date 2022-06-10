@@ -18,7 +18,7 @@ HTML5, CSS, Bootstrap, Javascript, jQuery 3.6.0
 
 1. Clone repository to your desktop. 
 2. Navigate to 'Arrays-and-Looping' folder. 
-3. Open the index.html file in your web browser.
+3. Open index.html in your web browser.
 
 ## GitHub Site
 
@@ -38,6 +38,8 @@ MIT
 
 ## Testing
 
+Decribe: robogersHood()
+
 Test: "It should return an array of numbers from 0 to the user's inputted number"
 Code: robogersHood(5);
 Expected Output: [0, 1, 2, 3, 4, 5]
@@ -45,6 +47,8 @@ Expected Output: [0, 1, 2, 3, 4, 5]
 Test: "It should return an array of strings from 0 to the user's inputted number"
 code robogersHood(5);
 Expected Output: ["0", "1", "2", "3", "4", "5"]
+
+Describe: stringChanger()
 
 Test: "If a 3 is encountered is should be replaced by a  "Won't you be my neighbor?"
 code stringChanger(5);
