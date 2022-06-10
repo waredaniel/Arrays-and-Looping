@@ -9,12 +9,20 @@ function robogersHood(userInput) {
     return initialString;
 }
 
-
-
-
-
-
-
+function stringChanger(userInput) {
+  let workingArray = robogersHood(userInput);
+  const outputArray = [];
+  workingArray.forEach(function(userInput) {
+    if (userInput.includes ("3")) {
+    outputArray.push("Won't you be my neighbor?")
+    }
+    else {
+    outputArray.push(userInput);
+    }
+  
+  })
+  return outputArray.join();
+}
 
 
 
@@ -22,9 +30,8 @@ function robogersHood(userInput) {
 //User Logic
 
 $(document).ready(function() {
-  $("form#Quiz").submit(function(event) {
     
-    const inputAge = parseInt($("#age").val());
+  
 
   });
 });
