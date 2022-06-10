@@ -4,15 +4,19 @@ function robogersHood(userInput) {
   const initialArray = [];
   for (let i = 0; i <= userInput; i++) {
     initialArray.push(i);
-    console.log(initialArray);
+    initialString = initialArray.map(String);
+    
+    console.log(initialString);
   }
 
-
-
-
-
-
 }
+
+
+
+
+
+// const initialArray = userInput.split("");
+// console.log(initialArray);
 
 //User Logic
 
